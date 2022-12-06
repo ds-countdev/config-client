@@ -8,10 +8,10 @@ spring:
     hibernate:
       ddl-auto: update
   datasource:
-    url: ${DATABASE_URL}
-    username: ${DATABASE_USERNAME}
-    password: ${DATABASE_PASSWORD}
-    driver-class-name: ${DATABASE_DRIVER}
+    url: ${datasource_url}
+    username: ${datasource_username}
+    password: ${datasource_password}
+    driver-class-name: ${datasource_driver}
 message:
   error_handler:
     code_400: The request is incorrect, please verify your information
