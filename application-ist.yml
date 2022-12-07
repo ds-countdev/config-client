@@ -1,0 +1,12 @@
+server:
+  port: 8002
+spring:
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: ${datasource_url}
+    username: ${datasource_username}
+    password: ${datasource_password}
+    driver-class-name: ${datasource_driver}
